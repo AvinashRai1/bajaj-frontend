@@ -1,0 +1,96 @@
+/* App.css */
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* Header */
+.App h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Textarea for JSON Input */
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+/* Submit Button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Filter Options */
+div label {
+  margin-right: 10px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+}
+
+div input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* JSON Response Output */
+pre {
+  text-align: left;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 14px;
+  color: #333333;
+  max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+      padding: 10px;
+  }
+
+  textarea {
+      font-size: 12px;
+  }
+
+  button {
+      font-size: 14px;
+      padding: 8px 16px; 
+  }
+}
